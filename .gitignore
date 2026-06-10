@@ -1,0 +1,29 @@
+# PowerShell / module artifacts
+*.psd1.bak
+*.ps1xml.bak
+
+# Editor / IDE
+.vs/
+.vscode/
+*.code-workspace
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs / local output
+*.log
+out/
+output/
+
+# Secrets / local config (never commit credentials or tokens)
+*.secret
+*.secrets
+secrets.*
+*.pfx
+*.cer
+*.key
+appsettings.local.*
+.env
