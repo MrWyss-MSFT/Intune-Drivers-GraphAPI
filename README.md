@@ -4,6 +4,14 @@ PowerShell tooling to inspect Intune **Windows driver update policies**
 (`windowsDriverUpdateProfile`) via Microsoft Graph, using only the
 `Microsoft.Graph.Authentication` module.
 
+> [!WARNING]
+> **Disclaimer — this was "vibe coded".** This project was generated quickly with the help of
+> an AI assistant and is provided **as-is**, with no warranty of any kind. Treat it as an
+> **example / source of inspiration**, not as production-ready software. **Do not run it in any
+> environment without first reading and understanding the code yourself**, validating it against
+> your own requirements, and testing it in a safe/non-production tenant. You are responsible for
+> any actions taken in your environment.
+
 ## Check-DriverPolicyAssignment.ps1
 
 Reports whether one or more Windows driver update policies are assigned to a **group** or a
